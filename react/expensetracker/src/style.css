@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+body {
+  background-color: #F1F1F2;
+}
+
+.App {
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  margin: 10px auto;
+  border: 3px solid rgb(17, 101, 117);
+  border-radius: 10px;
+  padding: 20px;
+  width: 45%;
+  display: flex; 
+  flex-direction: column;
+}
+
+.App input {
+  width: 55%;
+  height: 20px;
+  align-self: center;
+}
+
+.buttonClass {
+  width: 60%;
+  height: 30px;
+  margin: 10px 20%;
+  background-color: #1995AD;
+  box-shadow: 2px 2px 2px grey;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.App button:hover {
+  background-color: rgb(17, 101, 117);
+}
+
+.header {
+  display: flex;
+  justify-content: space-around;
+  padding: 15px;
+  margin: 20px auto;
+  background-color: white;
+  box-shadow: 2px 2px 2px grey;
+  width: 65%;
+}
+
+.header hr {
+  margin: 0;
+}
+
+.header h4 {
+  margin: 10px;
+  text-align: center;
+  display: block;
+}
+
+.prodInfo {
+  display: flex;
+  width: 100%;
+  padding: 0 10px;
+  box-shadow: 1px 1px 1px grey;
+}
+
+.prodInfo:hover {
+  background-color: white;
+}
+
+.prodName {
+  width: 60%;
+}
+
+.prodPrice {
+  width: 10%;
+}
+
+.headerProd {
+  display: flex;
+  width: 100%;
+  color: rgb(17, 101, 117);
+}
+
+.headerProd p {
+  margin-bottom: 0;
+}
+
+.headerProdName {
+  margin-left: 40px;
+  width: 45%;
+}
+
+.headerProdPrice {
+  width: 10%;
+}
+
+.date {
+  width: 40%;
+  font-size: 12px;
+  color: grey;
+  align-self: flex-end;
+  display: block;
+  text-align: right;
+}
+
+.product {
+  display: flex;
+  margin: 10px auto;
+  width: 100%;
+}
+
+.line {
+  width: 2%;
+  background-color: green;
+  box-shadow: 1px 1px 1px grey;
+
+}
+
+.productsDiv {
+  margin: 0px auto;
+  width: 45%;
+}
+
+.singleProd {
+  display: flex;
+  flex-direction: column-reverse;
+  
+}
+
+
+.deleteBin img {
+  width: 30px;
+}
+
+.deleteBin {
+  width: 35px;
+  align-self: center;
+  border: 1px solid black;
+  border-radius: 5px;
+  opacity: 0;
+}
+
+.deleteBin button {
+  background-color: #c46e66;
+  margin: 0;
+  padding: 0;
+  cursor: pointer;
+}
+
+.product:hover .deleteBin {
+  opacity: 1;
+}
+
